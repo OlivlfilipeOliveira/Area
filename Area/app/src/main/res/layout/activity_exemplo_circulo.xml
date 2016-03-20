@@ -1,0 +1,63 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/principal"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exemplo"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"
+        android:textColor="#151570"/>
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Um para-raios instalado em um determinado prédio protege uma área circular de raio R = 30 m no solo. O valor total da área do solo, em metros quadrados, protegida por esse para-raios, é de:"
+        android:layout_below="@+id/textView10"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_margin="10sp"/>
+    <TextView
+        android:id="@+id/A1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Área = 3,14 x 30²"
+        android:layout_below="@+id/texto"
+        android:textSize="25dp"
+        android:textColor="#B22222"
+        android:paddingLeft="25dp"/>
+    <TextView
+        android:id="@+id/A2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Área = 3,14 x 900"
+        android:layout_below="@+id/A1"
+        android:textSize="25dp"
+        android:textColor="#B22222"
+        android:paddingLeft="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Área = 2826m²"
+        android:layout_below="@+id/A2"
+        android:textSize="25dp"
+        android:textColor="#B22222"
+        android:paddingLeft="25dp"/>
+</RelativeLayout>

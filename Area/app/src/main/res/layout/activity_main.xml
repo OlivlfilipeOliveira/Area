@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.area.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/principal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Áreas de figuras planas  "
+            android:layout_margin="10sp"
+            android:textSize="30dp"
+            android:textColor="#191970"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quadrado"
+            android:layout_margin="5sp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:onClick="quadrado" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retângulo"
+            android:layout_margin="5sp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:onClick="retangulo" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Triângulo qualquer"
+            android:layout_margin="5sp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:onClick="triangulo"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Círculo"
+            android:layout_margin="5sp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:onClick="circulo"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trapézio"
+            android:layout_margin="5sp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:onClick="trapezi"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Losango"
+            android:layout_margin="5sp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:onClick="losango"/>
+    </LinearLayout>
+
+</RelativeLayout>
